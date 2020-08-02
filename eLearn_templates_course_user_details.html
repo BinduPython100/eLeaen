@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<body>
+<h2 align="center">User Profile Details</h2>
+<div class="card mb-3" style="max-width: 800px;margin:0 auto;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img src="{% static 'lms/assets/Unknown1.png' %}" class="card-img" alt="...">
+    </div>
+    <div class="col-md-8">
+         <h4 class="card-header">Profile Details</h4>
+      <div class="card-body">
+        <h5 class="card-title">Hello, {{user.username}}</h5>
+        <p class="card-text">Your email Address is {{user.email}}</p>
+        <p class="card-text"><small class="text-muted">Your Last Login at {{ user.last_login }}</small></p>
+        <a href="{% url 'logout' %}" class="btn btn-primary">Logout</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

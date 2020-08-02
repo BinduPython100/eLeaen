@@ -1,0 +1,45 @@
+{%  extends "lms/layout.html" %}
+{% load static %}
+{% block content %}
+<div class="row justify-content-md-center home-header">
+    <div class="col-lg-7 col-sm-12 col-md-12 ">
+        <div class="home-title">
+            <h1>Now start learning with us </h1>
+            <p>We provide high quality online tutions and <br> workshops from the best teachers. </p>
+            <a class="btn signup" href="">Sign Up</a>
+        </div>
+    </div>
+    <div class="col-lg-5 col-sm-12 col-md-12 d-none d-lg-block d-xl-block">
+        <img id="header-img" src="{% static 'lms/assets/Study_svg.svg' %}" alt="study">
+    </div>
+</div>
+<div class="trending-container">
+    <div class="trending-course">
+        <h2 class="trending-title">Trending Courses</h2>
+        <div class="row justify-content-md-center scrolling-wrapper-flexbox" style="overflow-y: hidden">
+          {% for course in courses %}
+            <div class="col-lg-2 col-md-4 col-sm-6">
+                <div class="card">
+                    <img src="{{ course.image.url }}" alt="react" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title text-center"><a href="{% url 'course_detail' course.id %}">{{ course.title }}</a></h5>
+                    </div>
+                  </div>
+            </div>
+            {% endfor %}
+        </div>
+        <a class="btn view-all" href="">View All</a>
+    </div>
+</div>
+<div class="row home-last justify-content-md-center">
+    <div class="col-lg-5 col-md-5 col-sm-11">
+        <img id="boy-laptop" src="{% static 'lms/assets/boy-laptop.svg' %}" alt="boy">
+    </div>
+    <div class="home-last-content col-lg-5 col-md-5 col-sm-11">
+            <h1>Why choose us ? </h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum arcu quam, id aliquet sapien semper eget. Quisque posuere porta ex. Sed efficitur velit mollis turpis sagittis molestie. </p>
+    </div>
+</div>
+{% endblock %}
+</body>
+</html>

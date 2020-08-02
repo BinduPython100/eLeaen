@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>{{course.title}}</h1>
+<h3>{{course.description}}</h3>
+<img src="{{ course.image.url }}">
+<p>{{course.lesson_count}} | {{course.video_count}} | {{course.material_count}}</p>
+
+{% for lesson in course.lesson_set.all %}
+<li>
+    {{lesson.name}}
+</li>
+
+{% for material in lesson.material_set.all %}
+<a href="{{ material.material.url }}" download>{{material.title}}</a>
+
+{% endfor %}
+
+{% for video in lesson.video_set.all %}
+<a href="" class="video_list" data="https://www.youtube.com/embed/{{video.link}}?ecver=1">{{video.title}}</a>
+
+
+{% endfor %}
+
+{% endfor %}
+
+<iframe class="embed-responsive-item"  src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+            $(document).ready(function(){
+                var link = $(".video_list:first").attr('data');
+                $('iframe').attr("src", link);
+                 $(".video_list").click(function(e){
+                    e.preventDefault();
+                    var link = $(this).attr('data');
+                    $('iframe').attr("src", link);
+
+                });
+            });
+    </script>
+</body>
+</html>

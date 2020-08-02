@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b5cd10a4-a929-4eb2-9d52-effff81b263a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1eMWBCsokp10i8AmtiJexSZdu4U" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lms/static/lms/assets" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor.code.editing" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myUseExistingConsole" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lms/static/lms/assets" />
+      <recent name="$PROJECT_DIR$/templates/lms" />
+      <recent name="$PROJECT_DIR$/lms" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.views">
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="eLearn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/course" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/course/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="eLearn" type="Python.DjangoServer" factoryName="Django server">
+      <module name="eLearn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.views" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b5cd10a4-a929-4eb2-9d52-effff81b263a" name="Default Changelist" comment="" />
+      <created>1594131804193</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594131804193</updated>
+      <workItem from="1594131807752" duration="1061000" />
+      <workItem from="1594132933089" duration="1153000" />
+      <workItem from="1594173934567" duration="1784000" />
+      <workItem from="1594175765074" duration="682000" />
+      <workItem from="1594183463254" duration="322000" />
+      <workItem from="1594185351131" duration="176000" />
+      <workItem from="1594392958473" duration="551000" />
+      <workItem from="1595315857355" duration="278000" />
+      <workItem from="1595437562544" duration="1567000" />
+      <workItem from="1596050595786" duration="89000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1029" height="546" key="DebuggerActiveHint" timestamp="1594556258567">
+      <screen x="0" y="23" width="1280" height="724" />
+    </state>
+    <state width="1029" height="546" key="DebuggerActiveHint/0.23.1280.724@0.23.1280.724" timestamp="1594556258567" />
+    <state width="1253" height="54" key="GridCell.Tab.0.bottom" timestamp="1594557989582">
+      <screen x="0" y="23" width="1280" height="725" />
+    </state>
+    <state width="1253" height="333" key="GridCell.Tab.0.bottom/0.23.1280.724@0.23.1280.724" timestamp="1594556375899" />
+    <state width="1253" height="54" key="GridCell.Tab.0.bottom/0.23.1280.725@0.23.1280.725" timestamp="1594557989582" />
+    <state width="1253" height="54" key="GridCell.Tab.0.center" timestamp="1594557989581">
+      <screen x="0" y="23" width="1280" height="725" />
+    </state>
+    <state width="1253" height="333" key="GridCell.Tab.0.center/0.23.1280.724@0.23.1280.724" timestamp="1594556375898" />
+    <state width="1253" height="54" key="GridCell.Tab.0.center/0.23.1280.725@0.23.1280.725" timestamp="1594557989581" />
+    <state width="1253" height="54" key="GridCell.Tab.0.left" timestamp="1594557989580">
+      <screen x="0" y="23" width="1280" height="725" />
+    </state>
+    <state width="1253" height="333" key="GridCell.Tab.0.left/0.23.1280.724@0.23.1280.724" timestamp="1594556375897" />
+    <state width="1253" height="54" key="GridCell.Tab.0.left/0.23.1280.725@0.23.1280.725" timestamp="1594557989580" />
+    <state width="1253" height="54" key="GridCell.Tab.0.right" timestamp="1594557989581">
+      <screen x="0" y="23" width="1280" height="725" />
+    </state>
+    <state width="1253" height="333" key="GridCell.Tab.0.right/0.23.1280.724@0.23.1280.724" timestamp="1594556375898" />
+    <state width="1253" height="54" key="GridCell.Tab.0.right/0.23.1280.725@0.23.1280.725" timestamp="1594557989581" />
+    <state width="1253" height="54" key="GridCell.Tab.1.bottom" timestamp="1594557989584">
+      <screen x="0" y="23" width="1280" height="725" />
+    </state>
+    <state width="1253" height="333" key="GridCell.Tab.1.bottom/0.23.1280.724@0.23.1280.724" timestamp="1594556375811" />
+    <state width="1253" height="54" key="GridCell.Tab.1.bottom/0.23.1280.725@0.23.1280.725" timestamp="1594557989584" />
+    <state width="1253" height="54" key="GridCell.Tab.1.center" timestamp="1594557989583">
+      <screen x="0" y="23" width="1280" height="725" />
+    </state>
+    <state width="1253" height="333" key="GridCell.Tab.1.center/0.23.1280.724@0.23.1280.724" timestamp="1594556375811" />
+    <state width="1253" height="54" key="GridCell.Tab.1.center/0.23.1280.725@0.23.1280.725" timestamp="1594557989583" />
+    <state width="1253" height="54" key="GridCell.Tab.1.left" timestamp="1594557989582">
+      <screen x="0" y="23" width="1280" height="725" />
+    </state>
+    <state width="1253" height="333" key="GridCell.Tab.1.left/0.23.1280.724@0.23.1280.724" timestamp="1594556375810" />
+    <state width="1253" height="54" key="GridCell.Tab.1.left/0.23.1280.725@0.23.1280.725" timestamp="1594557989582" />
+    <state width="1253" height="54" key="GridCell.Tab.1.right" timestamp="1594557989583">
+      <screen x="0" y="23" width="1280" height="725" />
+    </state>
+    <state width="1253" height="333" key="GridCell.Tab.1.right/0.23.1280.724@0.23.1280.724" timestamp="1594556375811" />
+    <state width="1253" height="54" key="GridCell.Tab.1.right/0.23.1280.725@0.23.1280.725" timestamp="1594557989583" />
+    <state x="149" y="23" width="1125" height="716" key="SettingsEditor" timestamp="1594193573392">
+      <screen x="0" y="23" width="1280" height="716" />
+    </state>
+    <state x="149" y="23" width="1125" height="716" key="SettingsEditor/0.23.1280.716@0.23.1280.716" timestamp="1594193573392" />
+    <state x="90" y="56" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1594556316944">
+      <screen x="0" y="23" width="1280" height="724" />
+    </state>
+    <state x="90" y="56" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.23.1280.724@0.23.1280.724" timestamp="1594556316944" />
+  </component>
+</project>

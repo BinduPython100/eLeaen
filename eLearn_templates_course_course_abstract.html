@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>{{course.title}}</h1>
+<h3>{{course.description}}</h3>
+<img src="{{ course.image.url }}">
+<p>{{course.lesson_count}} | {{course.video_count}} | {{course.material_count}}</p>
+
+{% for lesson in course.lesson_set.all %}
+<li>
+    {{lesson.name}}
+</li>
+{% endfor %}
+
+<a href="{% url 'course_enroll' course.id %}">Enroll</a>
+
+</body>
+</html>
