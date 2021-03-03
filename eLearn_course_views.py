@@ -34,6 +34,7 @@ def logout_request(request):
     return redirect("index")
 
 
+
 def user_list(request, pk):
     user = User.objects.get(id=pk)
     return render(request, 'course/user_details.html', {'user': user})
